@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="CSS/stylescarrinho.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <div class="logo">
+            <h3><a href="index.html">FarmaDomNery</a></h3>
+        </div>
+
+
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+
+    </div>
+    </header>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/dipirona-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Dipirona Monoidratada</div>
+                      <div class="category">Comprimidos</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 16,29</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/soro-fisiologico-com-gotejador-sorimax-250ml-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Soro Fisiológico Sorimax</div>
+                      <div class="category">Soro</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 3,69</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/cimegripe-com-20-capsulas-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Cimegripe 20 Cápsulas</div>
+                      <div class="category">Cápsulas</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 9,70</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/novalgina-1g-20-comprimidos-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Novalgina 20 Comprimidos</div>
+                      <div class="category">Comprimidos</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 16,29</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/analgesico-dorflex-1g-10comprimidos-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Analgesico Dorflex 10 Comprimidos</div>
+                      <div class="category">Relaxante</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 13,69</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/cerave-creme-hidratante-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Cerave Creme Hidratante</div>
+                      <div class="category">Creme Hidratante</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 30,49</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/js_baby_shapoo_cabelos_claros_frente_400ml-100.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Shampoo Johnsons Baby Cabelos Claros</div>
+                      <div class="category">Shampoo</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 17,59</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="IMG/desodorante-bozzano-aerossol-150ml-100.png" alt="" />
+                    <div class="info">
+                      <div class="name">Desodorante Bozzano Aerossol</div>
+                      <div class="category">Desodorante</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 8,79</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 116,53</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 116,53</span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    </main>
+
+  </section>
+  <section class="contatos" id="contatos">
+    <h3>Contatos</h3>
+    <div class="contatos-secao">
+        <div>
+            <i class="fas fa-phone"></i>
+            <span>(19) 3333-7777</span>
+        </div>
+        <div>
+            <i class="fab fa-instagram"></i>
+            <span>@domneryfarma</span>
+        </div>
+        <div>
+        </div>
+    </div>
+  <footer>
+  </footer>
+  </body>
+</html>
